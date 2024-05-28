@@ -5,10 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Counter App</title>
 </head>
-<body>    
+<body>
+    <header class="app-bar">
+        <h1>My Counter App</h1>
+    </header>
+    <div class="content">
+        <div class="counter-container">
+            <h2>Counter</h2>
+            <div class="counter" id="counter">0</div>
+            <div class="buttons">
+                <button id="increase"><img src="images/increase.png" alt="Increase"></button>
+                <button id="decrease"><img src="images/decrease.png" alt="Decrease"></button>
+                <button id="reset"><img src="images/reset.png" alt="Reset"></button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
-
-<script src="main.js"></script>
 </html>
